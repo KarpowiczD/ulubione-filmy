@@ -1,0 +1,24 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(201, 201, 201, 0.781);
+}
+#main {
+    max-width: 1300px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+.poster {
+    width: 100%;
+    display: block;
+    width: 20%;
+    height: 20%;
+    
+}
+
+nav {
+    background-color: rgb(66, 66, 66)
+}
