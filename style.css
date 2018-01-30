@@ -1,24 +1,73 @@
-* {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    box-sizing: border-box;
-}
+
 body {
-    background-color: rgba(165, 163, 163, 0.384);
+    background-color: rgba(165, 163, 163, 0.555);
 }
+
 #main {
     max-width: 1300px;
     margin: 0 auto 0 auto;
     background-color: white;
 }
-.poster {
+
+nav {
+    background-color: rgb(31, 30, 30);
+    max-width: 1300px;
+    margin: 0 auto 0 auto;
+}
+
+a.navi { 
+    display: inline-block;
+    color: white;
+    width: 10%;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+img.poster {
     width: 100%;
     display: block;
     width: 20%;
     height: 20%;
+    float: left;
+    padding: 30px 30px;
+    clear: left;
     
 }
 
-nav {
-    background-color: rgb(66, 66, 66)
+img.Jack {
+    display: block;
+    width: 260px;
+    height: 260px;
+    float: left;
+    padding: 30px 30px;
+    
+}
+
+img.Shelley {
+    display: block;
+    width: 260px;
+    height: 260px;
+    float: left;
+    padding: 30px 30px;
+}
+
+section > h1 {
+padding: 30px 10px 0px 0px;
+font-family: 'Cinzel', serif;
+font-size: 40px;
+}
+
+section > h2 {
+    padding: 0px 0px 10px 10px;
+    color: rgb(112, 111, 111);
+}
+
+section > h3{
+    color: rgb(112, 111, 111);
+}
+
+.short {
+color: rgb(112, 111, 111);
 }
