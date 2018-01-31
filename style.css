@@ -15,9 +15,12 @@ nav {
     margin: 0 auto 0 auto;
 }
 
-.main-info {
+.flex-container{
     display: flex;
+}
+.main-info {
     align-items: center;
+
 }
 a.navi { 
     display: inline-block;
@@ -51,13 +54,11 @@ img.Shelley {
     padding: 30px 30px;
 }
 
-section > h1 {
-padding: 30px 10px 0px 0px;
-font-family: 'Cinzel', serif;
-font-size: 40px;
-
+h1 {
+    padding: 30px 10px 0px 0px;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
 }
-
 
 section > h2 {
     padding: 0px 0px 10px 10px;
@@ -68,3 +69,6 @@ section > h3{
     color: rgb(112, 111, 111);
 }
 
+ul {
+    list-style-type: none;
+}
