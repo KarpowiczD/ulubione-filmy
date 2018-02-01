@@ -1,74 +1,136 @@
-
+* {
+    padding-left: 0px;
+}
 body {
     background-color: rgba(165, 163, 163, 0.555);
 }
 
 main {
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto 0 auto;
-    background-color: white;
-}
+    background-color: white;}
 
 nav {
     background-color: rgb(31, 30, 30);
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 0 auto 0 auto;
+    margin-bottom: 10px;
 }
 
 .flex-container{
     display: flex;
+    justify-content: flex-start;
 }
+
 .main-info {
     align-items: center;
+}
 
+.main-info div p{
+    margin-right: 50px;
 }
 a.navi { 
     display: inline-block;
     color: white;
-    width: 10%;
+    width: 20%;
     padding: 20px 30px;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
+.short > ul > li > a{
+    color: rgb(112, 111, 111);
+    text-decoration-line: none;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
 img.poster {
-    width: 100%;
-    display: block;
-    width: 20%;
-    height: 20%;
-    padding: 30px 30px;
-    
+    width: 30%;
+    height: 30%;
+    margin: 30px;    
 }
 
-img.Jack {
-    width: 160px;
-    height: 160px;
-    padding: 30px 30px;
-    
+article ul.actors {
+    padding-left: 30px;
 }
 
-img.Shelley {
-    width: 160px;
-    height: 160px;
-    padding: 30px 30px;
+li.flex-container p{
+    display: flex;
+    flex-direction: column;
+}
+
+.actors li p:last-of-type {
+    margin-right: 50px;
+    text-align: justify;
 }
 
 h1 {
-    padding: 30px 10px 0px 0px;
     font-family: 'Cinzel', serif;
     font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-section > h2 {
-    padding: 0px 0px 10px 10px;
+.main-info h2 {
     color: rgb(112, 111, 111);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-section > h3{
+.main-info h3{
     color: rgb(112, 111, 111);
+    margin-bottom: 1px;
 }
 
 ul {
     list-style-type: none;
+}
+
+article h2{
+    padding-left: 30px;
+    color: rgb(112, 111, 111);
+}
+h2#Opinnie{
+    padding-left: 30px;
+    color: rgb(112, 111, 111);
+}
+div.short > ul {
+    margin-top: 10px;
+}
+
+hr {
+    margin: 30px 30px;
+    margin-left: 0px;
+
+}
+
+li.flex-container div > img {
+    width: 160px;
+    height: 160px;
+    margin-right: 20px;
+    margin-top: 20px; 
+}
+
+.recenzje ul {
+    padding-left: 60px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.recenzje ul li:nth-of-type(even) {
+    color: rgb(112, 111, 111);
+}
+#Info{
+    color: rgb(112, 111, 111);
+    padding-left: 30px;
+}
+.info {
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+div.recenzje ul li i {
+    text-align: center;
 }
